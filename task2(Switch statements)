@@ -1,0 +1,50 @@
+#include<iostream>
+using namespace std;
+int main(){
+   int num;
+   cout<<"\tLucky draw!!!.Lets check!!!."<<endl;
+   cout<<"\tEnter your favourite num between 1 to 10 for check your horoscope today."<<endl;
+   cin>>num;
+   cout<<endl;
+   cout<<"OK. Your horoscope is generated!!!."<<endl;
+   cout<<endl;
+   switch (num){
+       case 1:
+       cout<<"You are a natural leader, and success follows you wherever you go!"<<endl;
+       break;
+       case 2:
+       cout<<"Your positivity lights up every room you walk into!"<<endl;
+       break;
+       case 3:
+       cout<<"Big opportunities are coming your way—stay ready!"<<endl;
+       break;
+       case 4:
+       cout<<"Your kindness is inspiring, and people love to be around you!"<<endl;
+       break;
+       case 5:
+       cout<<"Great things are waiting for you, just around the corner!"<<endl;
+       break;
+       case 6:
+       cout<<"Your determination will make you unstoppable in achieving your dreams!"<<endl;
+       break;
+       case 7:
+       cout<<"You bring happiness to everyone you meet. Keep shining!"<<endl;
+       break;
+       case 8:
+       cout<<"Your creativity is going to lead you to amazing new adventures!"<<endl;
+       break;
+       case 9:
+       cout<<"Today is your lucky day, filled with joy and success!"<<endl;
+       break;
+       case 10:
+       cout<<"You are a true gem, and everything you touch turns to gold!"<<endl;
+       break;
+       default:
+       cout<<"Opps!!!!!.Invalid num."<<endl;
+       break;
+   }
+   cout<<endl;
+   cout<<"Thanks for check your horoscope today!!!."<<endl;
+    return 0;
+    
+}
