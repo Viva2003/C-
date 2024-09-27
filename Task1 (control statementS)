@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+void check_age(int age){
+    if(age<18){
+        cout<<"You are a kid So you are not a eligible to apply for a job."<<endl;
+    }
+    else if(age>=18 && age<=30){
+        cout<<"Congratulations!!!...You are a perfect adult to apply for this job."<<endl;
+    }
+    else if(age>30 && age<=50){
+        cout<<"Your age is little high but don't worry . You are a eligible for this job"<<endl;
+    }
+    else{
+        cout<<"Sorry.....Your age is not fit for this job"<<endl;
+    }
+}
+int main(){
+   int age;
+   cout<<"Enter your age "<<endl;
+   cin>>age;
+   check_age(age);
+    return 0;
+    
+}
